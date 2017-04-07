@@ -20,6 +20,11 @@ header {
   max-width: 1140px;
 }
 
+div.long-graphic {
+  width: 750px;
+  height: 1100px;
+}
+
 .navbar-inverse .navbar-nav>.active>a, {
 	color: #9d9d9d;
   background-color: transparent;
