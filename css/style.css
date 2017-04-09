@@ -13,16 +13,11 @@ h2 {
 }
 
 header {
-	position: fixed;
+	position: fixed; 
 	padding-left: 0;
 	padding-right: 0;
 	margin: 0 auto;
   max-width: 1140px;
-}
-
-div.long-graphic {
-  width: 750px;
-  height: 1100px;
 }
 
 .navbar-inverse .navbar-nav>.active>a, {
@@ -34,14 +29,34 @@ div.long-graphic {
 	background-color: transparent;
 }
 
+.firstimage, .headshot {
+  border: 10px solid;
+  border-color: #101010;
+  max-width: 100%;
+  height: auto;
+}
+
+div.carousel-caption {
+  color: white;
+  background-color: black;
+  opacity: .75;
+  border-radius: 5px;
+}
+
 img.social {
   display: inline;
   position: relative;
 }
 
-p, h3, h4, .material-icons, .icon-text {
+h3, h4, .material-icons {
 	display: block;
 	text-align: center;
+  text-decoration: none;
+}
+
+p {
+  display: inline-block;
+  font-size: 1.5em;
 }
 
 footer {
