@@ -59,7 +59,7 @@ p {
   font-size: 1.5em;
 }
 
-footer {
+footer, small {
   color: black;
   padding: 10px 30px;
   page-width: 100%;
@@ -71,6 +71,7 @@ footer {
 .social-buttons {
   padding: 10px;
   text-align: center;
+  background-color: white;
 }
 
 .social-button {
@@ -295,4 +296,12 @@ footer {
   body {
     text-align: center;
   }
+
+div.carousel-caption {
+  color: white;
+  background-color: black;
+  opacity: .75;
+  border-radius: 5px;
+  }
+
 }
