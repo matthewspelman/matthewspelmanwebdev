@@ -296,12 +296,4 @@ footer, small {
   body {
     text-align: center;
   }
-
-div.carousel-caption {
-  color: white;
-  background-color: black;
-  opacity: .75;
-  border-radius: 5px;
-  }
-
 }
